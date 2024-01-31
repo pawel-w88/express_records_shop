@@ -1,0 +1,30 @@
+{
+  "name": "be-record-1-pawel-w88",
+  "version": "1.0.0",
+  "description": "This file lists the changes that need to be made in each stage. It is ordered in reverse chronological order, meaning that the last changes made will always be on top of the file, so that readers will not have to scroll all the way down with each task added.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "seed": "node src/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-router": "^0.0.1",
+    "express-validator": "^7.0.1",
+    "lowdb": "^1.0.0",
+    "mongoose": "^7.5.0",
+    "parser": "^0.1.4",
+    "seed": "^0.4.4"
+  },
+  "devDependencies": {
+    "chance": "^1.1.11",
+    "nodemon": "^3.0.1"
+  }
+}
