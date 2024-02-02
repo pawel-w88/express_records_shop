@@ -19,7 +19,7 @@
     "express-router": "^0.0.1",
     "express-validator": "^7.0.1",
     "lowdb": "^1.0.0",
-    "mongoose": "^7.5.0",
+    "mongoose": "^7.6.8",
     "parser": "^0.1.4",
     "seed": "^0.4.4"
   },

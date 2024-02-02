@@ -5,13 +5,13 @@ import usersRoute from "./routes/usersRoute.js";
 import bodyParser from "body-parser";
 import corsMiddleware from "./middlewares/middlewares.js";
 
+
+import "./configs/db.js";
 import dotenv from "dotenv";
 dotenv.config();
 
-import "./configs/db.js";
-
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 3001;
 
 app.use(express.json());
 
